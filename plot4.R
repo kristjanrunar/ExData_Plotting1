@@ -1,3 +1,4 @@
+Sys.setlocale("LC_ALL", "English")
 data <- read.csv("household_power_consumption.txt", sep = ";")
 
 data$Date <- as.Date(strptime(data$Date, format = "%d/%m/%Y"))
