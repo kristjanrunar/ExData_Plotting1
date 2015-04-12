@@ -54,7 +54,9 @@ points(x = udata$DateTime,
        udata$Sub_metering_3,
        type = "l",
        col = "blue")
-legend("topright", legend = names(udata[7:9]), lty = 1, col = c("black","red","blue"))
+legend("topright", legend = names(udata[7:9]), 
+       lty = 1, col = c("black","red","blue"),
+       bty = "n")
 
 
 #forth plot
